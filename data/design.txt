@@ -1,0 +1,17 @@
+Design Policy of Ruby
+
+For me, the purpose of life is, at least partly, to have joy. Programmers often feel joy when they can concentrate on the creative side of programming, so Ruby is designed to make programmers happy. I consider a programming language as a user interface, so it should follow the principles of user interface.
+
+Principle of Conciseness
+
+I want computers to be my servants, not my masters. Thus, I'd like to give them orders quickly. A good servant should do a lot of work with a short order.
+
+Principle of Consistency
+
+As with uniform object treatment, as stated before, a small set of rules covers the whole Ruby language. Ruby is a relatively simple language, but it's not too simple. I've tried to follow the principle of "least surprise." Ruby is not too unique, so a programmer with basic knowledge of programming languages can learn it very quickly.
+
+Principle of Flexibility
+
+Because languages are meant to express thought, a language should not restrict human thought, but should help it. Ruby consists of an unchangeable small core (that is, syntax) and arbitrary extensible class libraries. Because most things are done in libraries, you can treat user-defined classes and objects just as you treat built-in ones.
+
+Programming is incredibly less stressful in Ruby because of these principles.

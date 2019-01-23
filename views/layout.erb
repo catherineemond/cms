@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en-US">
+  <title>Content Management System</title>
+  <head>
+    <link rel="stylesheet" href="/application.css">
+  </head>
+  <body>
+    <% if session[:message] %>
+      <div class='flash'>
+        <p><%= session.delete(:message) %></p>
+      </div>
+    <% end %>
+    <main>
+      <%= yield %>
+    </main>
+  </body>
+</html>
